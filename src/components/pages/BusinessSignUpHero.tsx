@@ -1,0 +1,15 @@
+import Hero from "../common/Hero";
+
+export default function BusinessLanding() {
+  return (
+    <>
+      <Hero
+        title="Stream to Be Chosen."
+        subtitle="SHOWCASE YOUR SPACE"
+        description="Direct marketing, drive more traffic, and boost revenue — all through real-time streaming, AI-powered insights, and smart analytics. Gain a deeper understanding of your customer patterns and preferences to grow smarter with Bizvis."
+        showCustomerBtn={false}
+        showBusinessBtn={true}
+      />
+    </>
+  );
+}
