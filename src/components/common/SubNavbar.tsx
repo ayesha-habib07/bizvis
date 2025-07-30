@@ -15,7 +15,7 @@ export default function SubNavbar() {
   ];
 
   return (
-    <div className="lg:mb-[60px] mb-[30px] w-full overflow-x-auto whitespace-nowrap flex items-center gap-2 pr-4 py-2 bg-[#020820] text-white lg:px-[110px] lg:py-[45px]">
+    <div className="w-full overflow-x-auto whitespace-nowrap flex items-center text-start gap-2 px-[24px] py-[30px] bg-[#020820] text-white lg:px-[110px]  lg:py-[45px]">
       {navItems.map((item, index) => (
         <div key={item.href} className="flex items-center gap-2">
           <Link

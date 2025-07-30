@@ -10,8 +10,10 @@ const Contactus = () => {
   const [agreed, setAgreed] = useState(false);
 
   return (
+    <>
+     <SubNavbar />
     <section className="lg:px-[314px] px-8 py-4 lg:py-[45px] bg-[#020820] text-white">
-      <SubNavbar />
+     
       <div className="text-center pb-[30px]">
         <h2 className="font-bold lg:text-4xl text-2xl text-white pb-[10px]">
           Contact Us – Bizvis Inc.
@@ -122,7 +124,9 @@ const Contactus = () => {
         directly at <span className="text-[#029CF6]">contact@bizvis.io</span>.
       </p>
     </section>
+    </>
   );
 };
+
 
 export default Contactus;

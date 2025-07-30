@@ -3,8 +3,9 @@ import SubNavbar from "@/components/common/SubNavbar"
 const Disclaimerpage = () => {
   return (
     <>
-      <section className='lg:px-[110px] px-8 py-4 lg:py-[45px] bg-[#020820] text-white '>
-        <SubNavbar />
+    <SubNavbar />
+      <section className='lg:px-[110px]  <SubNavbar /> lg:py-[45px] bg-[#020820] text-white '>
+        
 
         <div>
           <h2 className=' font-bold  lg:text-4xl text-2xl text-white pb-[10px]' >Disclaimer</h2>

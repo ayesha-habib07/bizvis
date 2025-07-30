@@ -3,10 +3,11 @@ import SubNavbar from '@/components/common/SubNavbar'
 const Privacypage = () => {
   return (
     <>
-      <section className='lg:px-[110px] px-8 py-4 lg:py-[45px] bg-[#020820] text-white '>
-        <SubNavbar />
+    <SubNavbar />
+      <section className='lg:px-[110px] px-[24px] py-[30px] lg:py-[45px] bg-[#020820] text-white '>
+        
         <div>
-          <h2 className=' font-bold  lg:text-4xl text-2xl text-white pb-[10px]' >Privacy Policy</h2>
+          <h2 className=' font-bold  md:text-5xl text-[24px] text-white pb-[10px]' >Privacy Policy</h2>
           <div className='lg:mb-[40px]'>
             <h3 className='text-[#029CF6] pb-[14px] text-[20px] font-semibold'>February 2025</h3>
             <p className='leading-[28px] text-[16px]'>This Privacy Policy (the “Policy”) describes how Bizvis Inc., a Delaware corporation (“Bizvis,”  “we,” “us,” or “our”), collects, uses, discloses, and retains
