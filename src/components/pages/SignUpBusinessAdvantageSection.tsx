@@ -50,23 +50,20 @@ const SignUpBusinessAdvantageSection = () => {
   }, [])
 
   return (
-    <section className='lg:px-[110px] lg:py-[60px] px-4 py-8 flex flex-col gap-6 text-center' style={{
-        background:
-          "linear-gradient(108.03deg, #020820 1.07%, rgba(2, 8, 32, 0.9) 20.31%, #020820 39.55%, rgba(2, 8, 32, 0.95) 58.79%, rgba(2, 8, 32, 0.9) 78.03%, #020820 97.27%)",
-      }}>
+    <section className='lg:px-[110px] lg:py-[60px] px-[24px] py-[30px] md:gap-10 gap-[22px] flex flex-col  md:text-center text-start bg-[#020820]' >
       <div>
-        <h2 className="text-2xl font-bold text-white lg:text-5xl">Early Access <span className='text-[#029CF6]'>Real Advantage  </span></h2>
-        <p className="text-white text-[18px]">Founding Venue Partners receive exclusive launch benefits and priority visibility</p>
+        <h2 className="text-[24px] font-bold text-white md:text-5xl">Early Access <span className='text-[#029CF6]'>Real Advantage  </span></h2>
+        <p className="text-white lg:text-[20px] text-[14px]">Founding Venue Partners receive exclusive launch benefits and priority visibility</p>
       </div>
 
       <div
         ref={scrollRef}
-        className="flex md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible gap-4 snap-x snap-mandatory scroll-smooth -mx-1 px-1 scrollbar-hide"
+        className="flex md:grid md:grid-cols-2 lg:grid-cols-4 overflow-x-auto md:overflow-visible gap-[24px] snap-x snap-mandatory scroll-smooth -mx-1 px-1 scrollbar-hide"
       >
         {cards.map((card, i) => (
           <div
             key={i}
-            className="snap-start shrink-0 w-[90%] sm:w-[80%] md:w-auto"
+            className="snap-start shrink-0 w-[100%] md:w-auto"
           >
             <SignUpBusinessAdvantageCard
               title={card.title}

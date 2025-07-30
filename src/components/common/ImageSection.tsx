@@ -6,6 +6,7 @@ interface ImageSectionProps {
   height?: number;
   width?: number;
   maxHeight?: string;
+  
 }
 
 export default function ImageSection({
@@ -17,7 +18,7 @@ export default function ImageSection({
 }: ImageSectionProps) {
   return (
     <section className="w-full bg-black">
-      <div className="w-full max-w-[1440px] ">
+      <div className="w-full ">
         <Image
           src={src}
           alt={alt}

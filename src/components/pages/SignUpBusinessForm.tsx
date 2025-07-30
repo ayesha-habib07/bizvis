@@ -3,23 +3,23 @@ import CTAButton from "../common/CTAButton";
 const SignUpBusinessForm = () => {
     return (
         <section
-            className="min-h-screen flex items-center justify-center px-4 py-16 bg-[#17315B]"
+            className="min-h-screen flex items-center justify-center lg:px-[310px] px-[24px] py-[30px] bg-[#203F64]"
            
         >
-            <div className="w-full max-w-4xl text-white">
+            <div className="w-full  text-white  lg:gap-[36px]">
                 {/* Heading */}
-                <div className="text-center mb-10">
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+                <div className="md:text-center mb-[30px] md:mb-0 text-start">
+                    <h2 className="text-[24px]  md:text-5xl font-bold leading-tight">
                         Showcase Your Space. <br />
                         <span className="text-[#29b6f6]">Drive More Foot Traffic.</span>
                     </h2>
-                    <p className="mt-2 text-sm sm:text-base text-gray-300">
+                    <p className="lg:text-[20px] text-[14px] text-gray-300">
                         Early access for venues to join the future of live visibility.
                     </p>
                 </div>
 
                 {/* Form */}
-                <form className="grid grid-cols-1 sm:grid-cols-2 gap-6 backdrop-blur-md p-6 sm:p-10 ">
+                <form className="grid grid-cols-1 sm:grid-cols-2 gap-[24px] backdrop-blur-md">
                     {/* Business Name */}
                     <div className="flex flex-col">
                         <label className="mb-1 text-sm font-medium">Business Name</label>

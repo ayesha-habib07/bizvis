@@ -38,17 +38,14 @@ const BusinessPage = () => {
 
   return (
     <div
-      className="w-full  py-10 lg:py-[88px] lg:px-[110px]  px-[24px]"
-      style={{
-        background:
-          "linear-gradient(108.03deg, #020820 1.07%, rgba(2, 8, 32, 0.9) 20.31%, #020820 39.55%, rgba(2, 8, 32, 0.95) 58.79%, rgba(2, 8, 32, 0.9) 78.03%, #020820 97.27%)",
-      }}
+      className="w-full  py-10 md:px-[60px] lg:py-[88px] lg:px-[110px]  px-[24px] bg-[#020820]"
+     
     >
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-[42px]">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-[24px] md:gap-[42px]">
 
         {/* Left content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start gap-6">
-          <h2 className="text-3xl md:text-[40px] font-bold text-white">
+          <h2 className="text-[24px] md:text-[40px] font-bold text-white">
             For <span className="text-[#029CF6]">Businesses</span>
           </h2>
 
@@ -69,8 +66,8 @@ const BusinessPage = () => {
                     />
                   </div>
                   <div>
-                    <h3 className="text-[16px] font-semibold text-white">{card.title}</h3>
-                    <p className="text-[14px] text-gray-300 mt-2">{card.description}</p>
+                    <h3 className="text-[14px] font-semibold text-white">{card.title}</h3>
+                    <p className="text-[12px] text-gray-300 mt-2">{card.description}</p>
                   </div>
                 </div>
               )

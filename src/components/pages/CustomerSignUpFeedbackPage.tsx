@@ -14,7 +14,7 @@ const cards = [
     {
         icon: "/lauren.png",
         name: "Lauren K.",
-        feedback: `Honestly, this app sounds like exactly what I’ve been needing. No more random guesses - just real info.`,
+        feedback: `Honestly, this app sounds like exactly what I’ve been needing. No more random guesses - just real info, when i need it.`,
         line: "/line.png",
         quotation: "/quotation.png"
     },
@@ -49,23 +49,20 @@ const CustomerSignUpFeedbackPage = () => {
     }, [])
 
     return (
-        <section className='lg:px-[110px] lg:py-[60px] px-4 py-8 flex flex-col gap-6 text-center' style={{
-            background:
-                "linear-gradient(108.03deg, #020820 1.07%, rgba(2, 8, 32, 0.9) 20.31%, #020820 39.55%, rgba(2, 8, 32, 0.95) 58.79%, rgba(2, 8, 32, 0.9) 78.03%, #020820 97.27%)",
-        }}>
+        <section className='lg:px-[110px] lg:py-[60px] px-[24px] py-[30px]  flex flex-col lg:gap-[50px] gap-[22px]  md:text-center text-start bg-[#020820]' >
             <div className='lg:pb-[50px] pb-[22px]'>
-                <h2 className="text-2xl font-bold text-white lg:text-5xl lg:pb-[14px] pb-1.5">Exciting Feedback <span className='text-[#4DEF08]'>About <br /> the Concept</span></h2>
-                <p className="text-white text-[18px]">Genuine comments from early supporters sharing their thoughts on what's coming.</p>
+                <h2 className="text-[24px] font-bold text-white lg:text-5xl lg:pb-[14px] pb-1.5">Exciting Feedback <span className='text-[#4DEF08]'>About <br /> the Concept</span></h2>
+                <p className="text-white md:text-[18px] text-[14px]">Genuine comments from early supporters sharing their thoughts on what's coming.</p>
             </div>
 
             <div
                 ref={scrollRef}
-                className="flex md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible gap-4 snap-x snap-mandatory scroll-smooth -mx-1 px-1 scrollbar-hide"
+                className="flex md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible gap-[10px] md:gap-[24px] snap-x snap-mandatory scroll-smooth  scrollbar-hide"
             >
                 {cards.map((card, i) => (
                     <div
                         key={i}
-                        className="snap-start shrink-0 w-[90%] sm:w-[80%] md:w-auto"
+                        className="snap-start shrink-0 w-[90%]  md:w-auto"
                     >
                         <FeedbackCard 
                             icon={card.icon}

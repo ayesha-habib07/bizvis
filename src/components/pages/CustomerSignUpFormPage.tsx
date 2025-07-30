@@ -3,13 +3,13 @@ import CTAButton from "../common/CTAButton";
 const CustomerSignUpForm = () => {
     return (
         <section
-            className="min-h-screen flex items-center justify-center px-4 py-16 bg-[#17315B]"
+            className="min-h-screen flex items-center justify-center px-[24px] py-[30px] bg-[#203F64]"
             
         >
             <div className="w-full max-w-4xl text-white">
                 {/* Heading */}
-                <div className="text-center mb-10">
-                    <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+                <div className="text-start md:text-center mb-[30px]">
+                    <h2 className="text-[24px]  md:text-5xl font-bold leading-tight">
                         Unlock Early <br />
                         <span className="text-[#4DEF08]">Unlock Early Access to Bizvis.</span>
                     </h2>
@@ -17,7 +17,7 @@ const CustomerSignUpForm = () => {
                 </div>
 
                 {/* Form */}
-                <form className="grid grid-cols-1 sm:grid-cols-2 gap-6 backdrop-blur-md p-6 sm:p-10 ">
+                <form className="grid grid-cols-1 sm:grid-cols-2 gap-6 backdrop-blur-md  ">
                     {/* Business Name */}
                     <div className="flex flex-col">
                         <label className="mb-1 text-sm font-medium">Full Name</label>

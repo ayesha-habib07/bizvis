@@ -51,23 +51,20 @@ const SignUpBusinessSection = () => {
   }, [])
 
   return (
-    <section className='lg:px-[110px] lg:py-[60px] px-4 py-8 flex flex-col gap-6 text-center' style={{
-        background:
-          "linear-gradient(108.03deg, #020820 1.07%, rgba(2, 8, 32, 0.9) 20.31%, #020820 39.55%, rgba(2, 8, 32, 0.95) 58.79%, rgba(2, 8, 32, 0.9) 78.03%, #020820 97.27%)",
-      }}>
+    <section className='lg:px-[110px] lg:py-[60px] px-[24px] py-[30px] flex flex-col md:gap-10 gap-[22px] md:text-center  text-startx  bg-[#020820]'>
       <div>
-        <h2 className="text-2xl font-bold text-white lg:text-5xl">Built for <br /> <span className='text-[#029CF6]'>Businesses Like Yours</span></h2>
-        <p className="text-white text-[18px]">Bizvis is designed for any physical space where business is conducted. These venues are just a glimpse—official launch partners will be announced.</p>
+        <h2 className="text-[24px] font-bold text-white md:text-5xl">Built for <br /> <span className='text-[#029CF6]'>Businesses Like Yours</span></h2>
+        <p className="text-white md:text-[18px] text-[14px]">Bizvis is designed for any physical space where business is conducted. These venues are just a glimpse—official launch partners will be announced.</p>
       </div>
 
       <div
         ref={scrollRef}
-        className="flex md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible gap-4 snap-x snap-mandatory scroll-smooth -mx-1 px-1 scrollbar-hide"
+        className="flex md:grid lg:grid-cols-4 md:grid-cols-2 overflow-x-auto md:overflow-visible md:gap-6 snap-x snap-mandatory scroll-smooth -mx-1 px-1 scrollbar-hide"
       >
         {cards.map((card, i) => (
           <div
             key={i}
-            className="snap-start shrink-0 w-[90%] sm:w-[80%] md:w-auto"
+            className="snap-start shrink-0 w-[100%] "
           >
             <SignUpBusinessCard
               bgImage={card.bgImage}

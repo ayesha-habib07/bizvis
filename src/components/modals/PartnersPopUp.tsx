@@ -2,6 +2,7 @@
 import SubmitButton from '../common/SubmitButton'
 import { useModal } from '../context/ModalProvider'
 import { useState, useEffect } from 'react';
+import SuccessMessage from '../common/SuccessMessage';
 
 const PartnerPopUp = () => {
     const [submitted, setSubmitted] = useState(false);
@@ -24,17 +25,10 @@ const PartnerPopUp = () => {
     return (
         <>
             <section className="fixed inset-0 z-50 bg-black bg-opacity-50 backdrop-blur-sm flex items-center justify-center px-4 overflow-y-auto">
-                <div className="bg-[#284497] rounded-[32px] max-w-4xl p-6  text-white relative">
+                <div className=" bg-[#4353AF] rounded-[32px] max-w-4xl p-6  text-white relative">
                     <button onClick={closeModal} className="absolute top-4 right-6 text-3xl">&times;</button>
                     {hasMounted && submitted ? (
-                        <div className="text-center py-16 px-6">
-                            <h2 className="text-3xl text-[#029CF6] font-bold mb-4">
-                                <span role="img" aria-label="celebrate">🎉</span> Thank you!
-                            </h2>
-                            <p className="text-lg">
-                                We’ve received your interest. We’ll be in touch shortly.
-                            </p>
-                        </div>
+                        <SuccessMessage />
                     ) : (
                         <>
 

@@ -26,7 +26,7 @@ const InvestmentPopUp = () => {
 
   return (
     <section className="fixed inset-0 z-50 bg-black bg-opacity-50 backdrop-blur-sm flex items-center justify-center px-4 overflow-y-auto">
-      <div className="bg-[#020820] rounded-[32px] max-w-[695px] max-h-[968px] mt-8 p-6 text-white relative">
+      <div className="bg-[#4353AF] rounded-[32px] max-w-[695px] max-h-[968px] mt-8 p-6 text-white relative">
         <button onClick={closeModal} className="absolute top-4 right-6 text-3xl">
           &times;
         </button>

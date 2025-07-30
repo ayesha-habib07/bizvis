@@ -14,10 +14,10 @@ const SignUpBusinessAdvantageCard = ({
   bgColor='bg-[#029CF6]'
 }: BusinessCardProps) => {
   return (
-    <div className=" border border-white rounded-tl-[14px] rounded-tr-[14px] rounded-bl-[14px] rounded-br-[44px] overflow-hidden shadow-lg max-w-sm mx-auto hover:scale-105 transition-transform duration-300 p-[30px]">
+    <div className=" border border-white rounded-tl-[14px] rounded-tr-[14px] rounded-bl-[14px] rounded-br-[44px] overflow-hidden shadow-lg mx-auto hover:scale-105 transition-transform duration-300 p-[16px] md:p-[32px]">
       
       {/* Content wrapper */}
-      <div className="flex flex-col items-start space-y-3">
+      <div className="flex flex-col items-start space-y-3 p-[16px]">
         
         {/* Icon */}
         <div className={` ${bgColor}    p-2  rounded-full`}>
@@ -34,7 +34,7 @@ const SignUpBusinessAdvantageCard = ({
         <h3 className="text-white text-[16px] font-semibold">{title}</h3>
 
         {/* Subtitle */}
-        <p className="text-[12px] sm:text-sm text-white">{subtitle}</p>
+        <p className="text-[12px]  text-white">{subtitle}</p>
       </div>
     </div>
   );

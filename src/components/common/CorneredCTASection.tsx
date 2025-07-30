@@ -1,9 +1,9 @@
 import CTAButton from "./CTAButton";
-import DownloadButtons from "./DownloadButtons";
+
 
 export default function JoinFutureSection() {
   return (
-    <div className="relative bg-[#0D1224] text-white overflow-hidden py-10 px-4 sm:px-6 ">
+    <div className="relative bg-[#020820] text-white overflow-hidden py-[30px] px-[24px]  md:px-[60px] ">
       {/* Content Container with Relative Position */}
       <div className="relative max-w-5xl mx-auto p-6 sm:p-10 bg-black flex flex-col gap-6 border border-white/10 rounded-xl">
         {/* Corner Images */}

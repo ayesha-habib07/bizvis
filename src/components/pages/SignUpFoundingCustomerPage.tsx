@@ -51,17 +51,14 @@ const SignUpFoundingCustomerPage = () => {
 
     return (
         <>
-            <section className='lg:px-[110px] lg:py-[60px] px-4 py-8 flex flex-col gap-6 text-center' style={{
-                background:
-                    "linear-gradient(108.03deg, #020820 1.07%, rgba(2, 8, 32, 0.9) 20.31%, #020820 39.55%, rgba(2, 8, 32, 0.95) 58.79%, rgba(2, 8, 32, 0.9) 78.03%, #020820 97.27%)",
-            }}>
+            <section className='lg:px-[110px] lg:py-[60px] px-4 py-8 flex flex-col lg:gap-[60px] gap-[24px] md:text-center text-start bg-[#020820]' >
                 <div>
-                    <h2 className="text-2xl font-bold text-white lg:text-5xl">Founding Customers Perks — <br /> <span className='text-[#4DEF08]'>For Early Signups Only</span></h2>
+                    <h2 className="text-[24px] font-bold text-white lg:text-[48px]">Founding Customers Perks — <br /> <span className='text-[#4DEF08]'>For Early Signups Only</span></h2>
                 </div>
 
                 <div
                     ref={scrollRef}
-                    className="flex md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible gap-4 snap-x snap-mandatory scroll-smooth -mx-1 px-1 scrollbar-hide"
+                    className="flex md:grid md:grid-cols-3 overflow-x-auto md:overflow-visible gap-[24px] snap-x snap-mandatory scroll-smooth -mx-1 px-1 scrollbar-hide"
                 >
                     {cards.map((card, i) => (
                         <div

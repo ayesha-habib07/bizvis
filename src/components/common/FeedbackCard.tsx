@@ -10,7 +10,7 @@ type FeedbackCardProps = {
 
 const FeedbackCard = ({ icon, name, feedback, line, quotation }: FeedbackCardProps) => {
   return (
-    <div className="items-center h-[327px] w-[391px] bg-[#4D53B0] flex flex-col sm:flex-row gap-4  p-[20px] rounded-xl shadow-md max-w-2xl mx-auto border border-white rounded-tl-[14px] rounded-tr-[14px] rounded-bl-[14px] rounded-br-[44px]">
+    <div className="items-center max-h-[327px] !gap-[10px] lg:gap-[20px] max-w-[391px] bg-[#4353AF] flex flex-row  p-[20px] md:p-[25px] xl:p-[35px] rounded-xl shadow-md  mx-auto border border-white rounded-tl-[14px] rounded-tr-[14px] rounded-bl-[14px] rounded-br-[44px]">
       {/* Left Section */}
       <div className="flex flex-col items-center sm:items-start gap-3">
         <Image src={icon} alt="User Icon" width={90} height={90} className="object-contain" />
