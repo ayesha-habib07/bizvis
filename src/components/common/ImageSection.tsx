@@ -12,19 +12,19 @@ interface ImageSectionProps {
 export default function ImageSection({
   src,
   alt,
-  height = 803,
+  height = 550,
   width = 1440,
-  maxHeight = "700px",
+  maxHeight = "600px",
 }: ImageSectionProps) {
   return (
-    <section className="w-full bg-black">
-      <div className="w-full ">
+    <section className=" bg-black">
+      <div className="w-full " >
         <Image
           src={src}
           alt={alt}
           width={width}
           height={height}
-          className={`w-full h-auto object-cover max-h-[${maxHeight}]`}
+          className={`w-full  object-cover max-h-[${maxHeight}]`}
         />
       </div>
     </section>

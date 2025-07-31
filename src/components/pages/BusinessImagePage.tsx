@@ -6,9 +6,9 @@ export default function SignUpImage() {
       <ImageSection
         src="/BusinessImage.png"
         alt="Hero Desktop"
-        height={800}
+        height={600}
         width={1440}
-        maxHeight="600px"
+        
         
        
       />
