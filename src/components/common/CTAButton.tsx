@@ -3,7 +3,7 @@ import { useModal } from '../context/ModalProvider';
 
 type CTAButtonProps = {
   text: string;
-  modalType: 'investment' | 'partner'; // add more as needed
+  modalType?: 'investment' | 'partner'; // add more as needed
   bgClass: string;
   textColor?: string;
 };
