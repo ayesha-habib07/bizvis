@@ -39,7 +39,7 @@ export default function Hero({
             <span className="text-[#4DEF08]">{subtitle}</span>
           </h1>
 
-          <p className="text-sm md:text-base text-[#FFFFFF] height-[30px] text-[18px]">
+          <p className=" md:text-[18px] text-[#FFFFFF] height-[30px] text-[14px]">
             {description}
           </p>
 
