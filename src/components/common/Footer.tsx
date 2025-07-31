@@ -49,9 +49,14 @@ const Footer = () => {
         </ul>
 
         {/* Copyright */}
-        <p className="text-xs text-gray-400 text-center md:text-right max-w-md">
+        <div className="flex gap-[12px] justify-center items-center">
+          <p className="text-[12px] text-start  max-w-md">
           © 2025 Bizvis Inc. | See Before You Go™ <br /> | Stream to Be Chosen™ | All Rights Reserved.
         </p>
+        <div>
+          <Image src="/footerImg.png" alt="footer Image" width={60} height={60}></Image>
+        </div>
+        </div>
       </div>
     </footer>
   );

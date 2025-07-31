@@ -14,11 +14,11 @@ const Contactus = () => {
      <SubNavbar />
     <section className="lg:px-[314px] px-8 py-4 lg:py-[45px] bg-[#020820] text-white">
      
-      <div className="text-center pb-[30px]">
-        <h2 className="font-bold lg:text-4xl text-2xl text-white pb-[10px]">
+      <div className="text-start md:text-center pb-[30px]">
+        <h2 className="font-bold  md:text-4xl text-[26px] text-white pb-[14px]">
           Contact Us – Bizvis Inc.
         </h2>
-        <p className="text-[16px]">
+        <p className="leading-[28px] md:text-[16px] text-[14px]">
           If you have questions about our platform, are interested in
           partnerships, investment opportunities, or early access, please fill
           out the form below and a member of our team will get back to you.
@@ -26,7 +26,7 @@ const Contactus = () => {
       </div>
 
       {/* Form */}
-      <form className="grid grid-cols-1 sm:grid-cols-2 gap-6 backdrop-blur-md p-6 sm:p-10">
+      <form className="grid grid-cols-1 sm:grid-cols-2 gap-6 backdrop-blur-md ">
         {/* Full Name */}
         <div className="flex flex-col">
           <label className="mb-1 text-sm font-medium">Full Name</label>

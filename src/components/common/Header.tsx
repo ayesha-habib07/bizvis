@@ -20,7 +20,7 @@ export default function Header() {
 
         <nav className="hidden lg:flex gap-6 text-white text-sm items-center">
           <Link href="/">Home</Link>
-          <Link href="#">Contact us</Link>
+          <Link href="/contact-us">Contact us</Link>
           <Link href="#" className="flex items-center">
             <Image
               src="/BYNCAI.png"
@@ -33,11 +33,10 @@ export default function Header() {
           </Link>
         </nav>
 
-
       </div>
 
       <div className="hidden lg:flex gap-3 ">
-        <Link href="/customerSignUp"><CTAButton text="Customer Early Access – Sign Up Now" modalType="null"  bgClass="bg-[#4DEF0866]" /></Link>
+        <Link href="/customerSignUp"><CTAButton text="Customer Early Access – Sign Up Now" modalType="null" bgClass="bg-[#4DEF0866]" /></Link>
         <Link href="/businessSignUp"><CTAButton text="Business Early Access – Sign Up Now" modalType="null" bgClass="bg-[#029CF666]" /></Link>
       </div>
 
@@ -53,8 +52,8 @@ export default function Header() {
       {menuOpen && (
         <div className="fixed top-[80px] left-0 w-full bg-black text-white px-6 py-4 flex flex-col gap-3 lg:hidden z-40">
 
-          <Link href="#">Home</Link>
-          <Link href="#">Contact us</Link>
+          <Link href="/">Home</Link>
+          <Link href="/contact-us" >Contact Us</Link>
           <Link href="#">BYNC AI</Link>
           {/* <CTAButton text="Customer Early Access – Sign Up Now" color="green" />
           <CTAButton text="Business Early Access – Sign Up Now" color="blue" /> */}
