@@ -36,8 +36,8 @@ export default function Header() {
       </div>
 
       <div className="hidden lg:flex gap-3 ">
-        <Link href="/customerSignUp"><CTAButton text="Customer Early Access – Sign Up Now" modalType="null" bgClass="bg-[#4DEF0866]" /></Link>
-        <Link href="/businessSignUp"><CTAButton text="Business Early Access – Sign Up Now" modalType="null" bgClass="bg-[#029CF666]" /></Link>
+        <Link href="/customerSignUp"><CTAButton text="Customer Early Access – Sign Up Now"  bgClass="bg-[#4DEF0866]" /></Link>
+        <Link href="/businessSignUp"><CTAButton text="Business Early Access – Sign Up Now"  bgClass="bg-[#029CF666]" /></Link>
       </div>
 
       <div className="lg:hidden">
