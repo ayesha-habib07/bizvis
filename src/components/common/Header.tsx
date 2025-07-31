@@ -14,7 +14,9 @@ export default function Header() {
 
       <div className="flex items-center gap-20 justify-between ">
         <div className="flex items-center gap-2">
+          <Link href='/'>
           <img src="/logo.png" alt="logo" className="h-8 w-8" />
+          </Link>
           {/* <span className="text-white text-xl font-bold">Bizvis</span> */}
         </div>
 
@@ -54,7 +56,7 @@ export default function Header() {
 
           <Link href="/">Home</Link>
           <Link href="/contact-us" >Contact Us</Link>
-          <Link href="#">BYNC AI</Link>
+          {/* <Link href="#">BYNC AI</Link> */}
           {/* <CTAButton text="Customer Early Access – Sign Up Now" color="green" />
           <CTAButton text="Business Early Access – Sign Up Now" color="blue" /> */}
         </div>

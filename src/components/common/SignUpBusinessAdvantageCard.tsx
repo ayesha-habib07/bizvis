@@ -14,7 +14,7 @@ const SignUpBusinessAdvantageCard = ({
   bgColor='bg-[#029CF6]'
 }: BusinessCardProps) => {
   return (
-    <div className=" border border-white rounded-tl-[14px] rounded-tr-[14px] rounded-bl-[14px] rounded-br-[44px] overflow-hidden shadow-lg mx-auto hover:scale-105 transition-transform duration-300 p-[16px] md:p-[32px]">
+    <div className="bg-[#070D24] border border-white rounded-tl-[14px] rounded-tr-[14px] rounded-bl-[14px] rounded-br-[44px] overflow-hidden shadow-lg mx-auto hover:scale-105 transition-transform duration-300 p-[16px] md:p-[32px]">
       
       {/* Content wrapper */}
       <div className="flex flex-col items-start space-y-3 p-[16px]">

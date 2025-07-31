@@ -1,5 +1,6 @@
 import CTAButton from "../common/CTAButton";
 import DownloadButtons from "../common/DownloadButtons";
+import Link from "next/link";
 
 const ComingSoon = () => {
   return (
@@ -12,9 +13,17 @@ const ComingSoon = () => {
           Play Store
         </h2>
 
-        <div className="mt-6 space-y-4 flex flex-col"><span>
-          <CTAButton text="Business Early Access – Sign Up Now" bgClass="bg-[#029CF666]" /></span>
-          <span><CTAButton text="Customer Early Access – Sign Up Now" bgClass="bg-[#4DEF0866]" /></span>
+        <div className="mt-6 space-y-4 flex flex-col">
+          <span>
+         <Link href="/businessSignUp">
+          <CTAButton text="Business Early Access – Sign Up Now" bgClass="bg-[#029CF666]" />
+         </Link>
+          </span>
+          <span>
+            <Link href="/customerSignUp">
+            <CTAButton text="Customer Early Access – Sign Up Now" bgClass="bg-[#4DEF0866]" />
+            </Link>
+            </span>
         </div>
 
         <div className="mt-6">

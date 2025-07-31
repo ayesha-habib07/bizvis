@@ -1,5 +1,6 @@
 import Image from "next/image"
 import CTAButton from "../common/CTAButton"
+import Link from "next/link"
 
 const BusinessPage = () => {
   const cards = [
@@ -75,8 +76,10 @@ const BusinessPage = () => {
             })}
 
           </div>
-
-          <CTAButton text="Business Early Access – Sign Up Now" bgClass="bg-[#029CF666]" />
+<Link href="/businessSignUp">
+<CTAButton text="Business Early Access – Sign Up Now" bgClass="bg-[#029CF666]" />
+</Link>
+          
           <p className="text-[#FFFFFF]">Be first to showcase your venue in real time.</p>
         </div>
 

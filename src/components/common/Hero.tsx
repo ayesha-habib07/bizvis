@@ -1,4 +1,5 @@
 // components/Hero.tsx
+import { Link } from "lucide-react";
 import CTAButton from "../common/CTAButton";
 
 interface HeroProps {
@@ -70,22 +71,32 @@ export default function Hero({
 
       </div>
       <div className={` mt-[20px] flex flex-col md:flex-row gap-4 items-start justify-start ${responsiveButtons ? "" : "lg:hidden"
-          }`}>
-          {showCustomerBtn && (
+        }`}>
+        {showCustomerBtn && (
+
+
+       
             <CTAButton
+
+ href="/customerSignUp"
               text="Customer Early Access – Sign Up Now"
               bgClass="bg-[#4DEF0866]"
               textColor="black"
             />
-          )}
-          {showBusinessBtn && (
+
+        )}
+        {showBusinessBtn && (
+         
             <CTAButton
+            href="/businessSignUp"
               text="Business Early Access – Sign Up Now"
               bgClass="bg-[#029CF666]"
               textColor="black"
             />
-          )}
-        </div>
+         
+
+        )}
+      </div>
 
 
     </section>
