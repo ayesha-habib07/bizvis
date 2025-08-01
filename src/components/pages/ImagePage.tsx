@@ -6,9 +6,9 @@ export default function ImagePage() {
       <ImageSection
         src="/Desktop.png"
         alt="Hero Desktop"
-        height={800}
+        height={803}
         width={1440}
-        maxHeight="600px"
+        maxHeight="803px"
         
       />
     </div>

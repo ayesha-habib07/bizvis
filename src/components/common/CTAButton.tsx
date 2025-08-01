@@ -32,7 +32,7 @@ export default function CTAButton({
   return (
     <button
       onClick={handleClick}
-      className={`${bgClass} ${textColor} border border-[#029CF666] outline-none rounded-tr-sm rounded-tl-sm rounded-bl-sm rounded-br-xl px-[25px] py-[10px] text-sm hover:opacity-90 whitespace-nowrap`}
+      className={`${bgClass} ${textColor} cursor-pointer border border-[#029CF666] outline-none rounded-tr-sm rounded-tl-sm rounded-bl-sm rounded-br-xl px-[25px] py-[10px] text-sm hover:opacity-90 whitespace-nowrap`}
     >
       {text}
     </button>

@@ -13,7 +13,7 @@ const ComingSoon = () => {
           Play Store
         </h2>
 
-        <div className="mt-6 space-y-4 flex flex-col">
+        <div className="mt-6 space-y-4 flex flex-col ">
           <span>
          <Link href="/businessSignUp">
           <CTAButton text="Business Early Access – Sign Up Now" bgClass="bg-[#029CF666]" />
@@ -35,7 +35,7 @@ const ComingSoon = () => {
       <div className="hidden lg:flex w-[30%] bg-gradient-to-br from-[#01132b] to-[#033561] rounded-l-[40px] p-6 text-white items-center justify-center" />
 
       {/* Paragraph Box */}
-      <div className="bg-white text-gray-700 rounded-2xl shadow-lg p-6 lg:p-10 w-full max-w-md mx-auto lg:mx-0 z-10 mt-6 lg:absolute lg:top-[15%] lg:right-[10%]">
+      <div className="bg-white text-gray-700 rounded-2xl shadow-lg p-6 lg:p-10 w-full max-w-md mx-auto lg:mx-0 z-10 mt-6 lg:absolute lg:top-[15%] lg:right-[16%]">
         <p className="text-[18px] lg:text-xl font-medium">
           Bizvis is redefining how businesses and customers connect—smarter,
           faster, and powered by AI. Join us early and experience the future of

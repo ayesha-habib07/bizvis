@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className=" text-white px-[24px] py-[30px] bg-[#020820] lg:px-[110px] md:px-[60px]" >
+    <footer className=" text-white px-[24px] py-[30px] bg-[#020820] lg:px-[110px] " >
       {/* Top section */}
-      <div className="max-w-7xl  flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
+      <div className=" flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
         {/* Logo and name */}
         <div className="flex items-center gap-3">
           <Image src="/logo.png" alt="Logo" width={40} height={40} />
@@ -28,7 +28,7 @@ const Footer = () => {
       <hr className="my-8 border-gray-700" />
 
       {/* Links and copyright */}
-      <div className="max-w-7xl  flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+      <div className="  flex flex-col md:flex-row justify-between items-center md:items-center gap-6">
         {/* Footer links */}
         <ul className="flex flex-wrap gap-4 text-sm text-gray-300">
           <li>
@@ -49,8 +49,8 @@ const Footer = () => {
         </ul>
 
         {/* Copyright */}
-        <div className="flex gap-[12px] justify-center items-center">
-          <p className="text-[12px] text-start  max-w-md">
+        <div className="flex gap-[12px] justify-center items-center ">
+          <p className="text-[12px] text-start ">
           © 2025 Bizvis Inc. | See Before You Go™ <br /> | Stream to Be Chosen™ | All Rights Reserved.
         </p>
         <div>

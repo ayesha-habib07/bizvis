@@ -18,7 +18,7 @@ export default function CustomLayout({ children }: { children: React.ReactNode }
     <html lang="en">
       <body>
         <ModalProvider>
-          <Header />
+          {/* <Header /> */}
           <main>{children}</main>
           <Footer />
           <InvestmentPopUp />

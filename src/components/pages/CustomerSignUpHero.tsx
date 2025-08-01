@@ -4,14 +4,14 @@ export default function CustomerLanding() {
   return (
     <>
       <Hero
-        title="See Before You Go.TM"
-        subtitle="SHOWCASE YOUR SPACE"
+         heroType="customer"
         description="Get Early access to See real-time live views of restaurants, gyms, clubs, and events — so you can make smart, informed choices before stepping out."
         showCustomerBtn={true}
         showBusinessBtn={false}
         responsiveButtons={true}
         imageSrc="/customerVideoIcon.png"
         imageAlt="Customer Hero Icon"
+        backgroundImage="/customerHero.png"
       />
     </>
   );

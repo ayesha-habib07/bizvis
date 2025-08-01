@@ -10,12 +10,12 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className=" bg-[#020820] sticky top-0 left-0 w-full  px-8 md:px-[60px] lg:px-[110px]  md:py-[25px]    py-4  z-50 flex justify-between items-center">
+    <header className=" bg-transparent sticky top-0 left-0 w-full  px-[24px] md:px-[60px] lg:px-[110px]  md:py-[25px]  z-50 flex justify-between items-center">
 
       <div className="flex items-center gap-20 justify-between ">
         <div className="flex items-center gap-2">
           <Link href='/'>
-          <img src="/logo.png" alt="logo" className="h-8 w-8" />
+            <img src="/logo.png" alt="logo" className="h-8 w-8" />
           </Link>
           {/* <span className="text-white text-xl font-bold">Bizvis</span> */}
         </div>
@@ -38,8 +38,8 @@ export default function Header() {
       </div>
 
       <div className="hidden lg:flex gap-3 ">
-        <Link href="/customerSignUp"><CTAButton text="Customer Early Access – Sign Up Now"  bgClass="bg-[#4DEF0866]" /></Link>
-        <Link href="/businessSignUp"><CTAButton text="Business Early Access – Sign Up Now"  bgClass="bg-[#029CF666]" /></Link>
+        <Link href="/customerSignUp" className="cursor-pointer"><CTAButton text="Customer Early Access – Sign Up Now" bgClass="bg-[#4DEF0866]" /></Link>
+        <Link href="/businessSignUp" className="cursor-pointer"><CTAButton text="Business Early Access – Sign Up Now" bgClass="bg-[#029CF666]" /></Link>
       </div>
 
       <div className="lg:hidden">

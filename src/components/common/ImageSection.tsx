@@ -5,26 +5,25 @@ interface ImageSectionProps {
   alt: string;
   height?: number;
   width?: number;
-  maxHeight?: string;
-  
+  mobileHeight?: number; // add this for responsive behavior
 }
 
 export default function ImageSection({
   src,
   alt,
-  height = 550,
+  height = 803,
   width = 1440,
-  maxHeight = "600px",
+  mobileHeight = 207,
 }: ImageSectionProps) {
   return (
-    <section className=" bg-black">
-      <div className="w-full " >
+    <section className="bg-black">
+      <div className="relative w-full h-[207px] sm:h-[400px] md:h-[600px] lg:h-[803px]">
         <Image
           src={src}
           alt={alt}
-          width={width}
-          height={height}
-          className={`w-full  object-cover max-h-[${maxHeight}]`}
+          fill
+          className="object-cover w-full h-full"
+          priority
         />
       </div>
     </section>
