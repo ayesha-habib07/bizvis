@@ -10,7 +10,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className=" bg-transparent sticky top-0 left-0 w-full  px-[24px] md:px-[60px] lg:px-[110px]  md:py-[25px]  z-50 flex justify-between items-center">
+    <header className=" bg-transparent sticky top-0 left-0 w-full   md:px-[60px] lg:px-[110px]  md:py-[25px]  py-[18px] px-[25px] z-50 flex justify-between items-center">
 
       <div className="flex items-center gap-20 justify-between ">
         <div className="flex items-center gap-2">

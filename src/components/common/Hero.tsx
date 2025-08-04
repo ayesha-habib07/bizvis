@@ -54,7 +54,7 @@ export default function Hero({
         <Header />
 
         <div className="relative w-full min-h-screen text-white flex flex-col justify-start lg:justify-center 
-             bg-cover bg-center bg-no-repeat pb-[30px] px-[24px] md:pt-[130px] md:pb-[50px] md:px-[60px] lg:px-[110px] pt-[10px] lg:pt-[165px] lg-pb-[199px]">
+             bg-cover bg-center bg-no-repeat pb-[30px] px-[24px] md:pt-[130px] md:pb-[50px] md:px-[60px] lg:px-[110px] pt-[30px] lg:pt-[165px] lg-pb-[199px]">
 
 
           <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-stretch justify-between w-full gap-10">
