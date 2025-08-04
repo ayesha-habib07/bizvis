@@ -32,10 +32,10 @@ export default function JoinFutureSection() {
         {/* Early Access Buttons */}
         <div className="flex flex-wrap gap-4 justify-center">
           
-            <CTAButton href="/customerSignUp" text="Customer Early Access – Sign Up Now" bgClass="bg-[#029CF666]" />
+            <CTAButton href="/customerSignUp" text="Customer Early Access – Sign Up Now"  bgClass="bg-[#4DEF0866]" />
          
        
-            <CTAButton href="/businessSignUp" text="Business Early Access – Sign Up Now" bgClass="bg-[#4DEF0866]" />
+            <CTAButton href="/businessSignUp" text="Business Early Access – Sign Up Now"  bgClass="bg-[#029CF666]"  />
      
         </div>
 
