@@ -6,7 +6,7 @@ const SmarterDecision = () => {
       <div className="flex flex-col md:items-center  items-start  mx-auto gap-8">
         {/* Text Section */}
         <div className="w-full   md:!text-center lg:text-left">
-          <h2 className="text-[24px] lg:text-5xl font-bold text-white leading-tight" >
+          <h2 className="text-[24px] md:text-[40px] lg:text-5xl font-bold text-white leading-tight" >
             The Future of
              <span className="text-[#029CF6]"> Smarter  <br/> Connections </span> is here
           </h2>

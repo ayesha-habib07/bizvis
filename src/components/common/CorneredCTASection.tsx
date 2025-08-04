@@ -45,7 +45,7 @@ export default function JoinFutureSection() {
         </p>
 
         {/* Heading */}
-        <h2 className="text-center text-[28px] sm:text-3xl font-semibold">
+        <h2 className="text-center md:text-[28px] text-[24px] font-semibold">
           Join the Future of Live Access
         </h2>
 

@@ -46,8 +46,8 @@ const BusinessPage = () => {
 
         {/* Left content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start gap-6">
-          <h2 className="text-[24px] md:text-[40px] font-bold text-white">
-            For <span className="text-[#029CF6]">Businesses</span>
+          <h2 className="text-[24px] md:text-[40px] lg:text-5xl font-bold md:pb-[40px] pb-[24px] text-white">
+            For <span className="text-[#029CF6] ">Businesses</span>
           </h2>
 
           {/* Image grid or slider */}

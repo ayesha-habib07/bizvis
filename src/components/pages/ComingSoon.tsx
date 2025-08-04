@@ -7,7 +7,7 @@ const ComingSoon = () => {
     <div className="w-full flex flex-col lg:flex-row  gap-6 relative overflow-hidden  lg:px-0 ">
       {/* Left Section */}
       <div className="w-full lg:w-[70%] bg-gradient-to-br from-[#01132b] to-[#033561] lg:rounded-r-[40px] lg:rounded-l-none text-white flex flex-col justify-center px-[30px] py-10 lg:py-[81px] lg:pl-[165px]">
-        <h2 className="text-2xl lg:text-4xl font-semibold mb-4">
+        <h2 className="text-2xl md:text-[40px] lg:text-5xl font-semibold mb-4">
           <span className="text-[#029CF6]">Coming Soon</span> to <br />
           App Store and <br />
           Play Store

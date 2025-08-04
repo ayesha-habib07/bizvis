@@ -6,7 +6,7 @@ const SmarterDecision = () => {
       <div className="flex flex-col  items-center  mx-auto gap-[25px]">
         {/* Text Section */}
         <div className="w-full  text-left lg:text-center">
-          <h2 className="text-[24px]  md:text-5xl font-bold text-white leading-tight">
+          <h2 className="text-[24px] md:text-[40px]  lg:text-5xl font-bold text-white leading-tight">
             Smarter Decisions,
             <span className="text-[#029CF6]">Informed Experience</span>
           </h2>

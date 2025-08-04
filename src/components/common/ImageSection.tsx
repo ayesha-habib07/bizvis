@@ -11,7 +11,9 @@ interface ImageSectionProps {
 export default function ImageSection({
   src,
   alt,
-
+  height = 803,
+  width = 1440,
+  mobileHeight = 207,
 }: ImageSectionProps) {
   return (
     <section className="bg-black">

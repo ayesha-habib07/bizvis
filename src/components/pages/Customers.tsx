@@ -31,7 +31,7 @@ const Customers = () => {
         
         {/* Left content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start gap-6">
-          <h2 className="text-[24px] md:text-4xl font-bold text-white">
+          <h2 className="text-[24px] md:text-[40px] lg:text-5xl font-bold text-white">
             For Customers
           </h2>
 
@@ -70,7 +70,7 @@ const Customers = () => {
         {/* Right content */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <Image
-            src="/Mobile.png"
+            src="/Mobile.png" 
             alt="Laptop"
             width={312}
             height={627}
