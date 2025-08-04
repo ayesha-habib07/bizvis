@@ -8,7 +8,7 @@ export default function ImagePage() {
         alt="Hero Desktop"
         height={803}
         width={1440}
-        maxHeight="803px"
+      
         
       />
     </div>
