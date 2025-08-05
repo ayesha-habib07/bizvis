@@ -3,9 +3,9 @@
 import { Main } from "next/document";
 import CTAButton from "../common/CTAButton";
 import Header from "./Header";
-import MainHeroHeading from "./MainHeroHeading";
-import CustomerHeading from "./CustomerHeading";
-import BusinessHeading from "./BusinessHeading";
+import MainHeroHeading from "./heroHeadings/MainHeroHeading";
+import CustomerHeading from "./heroHeadings/CustomerHeading";
+import BusinessHeading from "./heroHeadings/BusinessHeading";
 interface HeroProps {
 
   heroType?: "main" | "customer" | "business";

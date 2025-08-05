@@ -51,7 +51,7 @@ const CustomerSignUpFeedbackPage = () => {
     return (
         <section className='lg:px-[110px] lg:py-[60px] px-[24px] py-[30px]  flex flex-col lg:gap-[50px] gap-[22px]  md:text-center text-start bg-[#020820]' >
             <div className='lg:pb-[50px] pb-[22px]'>
-                <h2 className="text-[24px] font-bold text-white lg:text-5xl lg:pb-[14px] pb-1.5">Exciting Feedback <span className='text-[#4DEF08]'>About <br /> the Concept</span></h2>
+                <h2 className="text-[24px] font-bold text-white md:text-[40px] lg:text-5xl lg:pb-[14px] pb-1.5">Exciting Feedback <span className='text-[#4DEF08]'>About <br /> the Concept</span></h2>
                 <p className="text-white md:text-[18px] text-[14px]">Genuine comments from early supporters sharing their thoughts on what's coming.</p>
             </div>
 

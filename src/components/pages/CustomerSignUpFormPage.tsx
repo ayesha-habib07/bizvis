@@ -9,7 +9,7 @@ const CustomerSignUpForm = () => {
             <div className="w-full max-w-4xl text-white">
                 {/* Heading */}
                 <div className="text-start md:text-center mb-[30px]">
-                    <h2 className="text-[24px]  md:text-5xl font-bold leading-tight">
+                    <h2 className="text-[24px] md:text-[40px]  lg:text-5xl font-bold leading-tight">
                         Unlock Early <br />
                         <span className="text-[#4DEF08]">Unlock Early Access to Bizvis.</span>
                     </h2>
@@ -114,7 +114,7 @@ const CustomerSignUpForm = () => {
                     {/* Submit button (full width) */}
                     <div className="sm:col-span-2 mt-4 text-center">
                         <span>
-                            <CTAButton text="Submit" bgClass="bg-[#4DEF0866] hover:bg-[#0288d1]" />
+                            <CTAButton text="Submit" bgClass="bg-[#4DEF0866] " />
                         </span>
                     </div>
                 </form>

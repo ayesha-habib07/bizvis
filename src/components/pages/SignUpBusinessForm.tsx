@@ -9,7 +9,7 @@ const SignUpBusinessForm = () => {
             <div className="w-full  text-white  lg:gap-[36px]">
                 {/* Heading */}
                 <div className="md:text-center mb-[30px] md:mb-0 text-start">
-                    <h2 className="text-[24px]  md:text-5xl font-bold leading-tight">
+                    <h2 className="text-[24px]  lg:text-5xl md:text-[40px] font-bold leading-tight">
                         Showcase Your Space. <br />
                         <span className="text-[#29b6f6]">Drive More Foot Traffic.</span>
                     </h2>
@@ -116,7 +116,7 @@ const SignUpBusinessForm = () => {
                     {/* Submit button (full width) */}
                     <div className="sm:col-span-2 mt-4 text-center">
                         <span>
-                            <CTAButton text="Submit" bgClass="[#4DEF08] hover:bg-[#0288d1]" />
+                            <CTAButton text="Submit" bgClass="[#0A1B44] bg-[#0288d1]" />
                         </span>
                     </div>
                 </form>

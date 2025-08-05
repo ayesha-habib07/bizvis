@@ -53,7 +53,7 @@ const SignUpBusinessSection = () => {
   return (
     <section className='lg:px-[110px] lg:py-[60px] px-[24px] py-[30px] flex flex-col md:gap-10 gap-[22px] md:text-center  text-startx  bg-[#020820]'>
       <div>
-        <h2 className="text-[24px] font-bold text-white md:text-5xl">Built for <br /> <span className='text-[#029CF6]'>Businesses Like Yours</span></h2>
+        <h2 className="text-[24px] font-bold text-white lg:text-5xl md:text-[40px]">Built for <br /> <span className='text-[#029CF6]'>Businesses Like Yours</span></h2>
         <p className="text-white md:text-[18px] text-[14px]">Bizvis is designed for any physical space where business is conducted. These venues are just a glimpse—official launch partners will be announced.</p>
       </div>
 
@@ -76,7 +76,7 @@ const SignUpBusinessSection = () => {
         ))}
       </div>
 
-      {/* Dots for small devices only */}
+    
         <div className="flex justify-center mt-4 md:hidden">
           {cards.map((_, i) => (
             <div

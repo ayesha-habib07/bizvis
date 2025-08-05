@@ -52,7 +52,7 @@ const SignUpBusinessAdvantageSection = () => {
   return (
     <section className='lg:px-[110px] lg:py-[60px] px-[24px] py-[30px] md:gap-10 gap-[22px] flex flex-col  md:text-center text-start bg-[#020820]' >
       <div>
-        <h2 className="text-[24px] font-bold text-white md:text-5xl">Early Access <span className='text-[#029CF6]'>Real Advantage  </span></h2>
+        <h2 className="text-[24px] font-bold text-white lg:text-5xl md:text-[40px]">Early Access <span className='text-[#029CF6]'>Real Advantage  </span></h2>
         <p className="text-white lg:text-[20px] text-[14px]">Founding Venue Partners receive exclusive launch benefits and priority visibility</p>
       </div>
 
